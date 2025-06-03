@@ -83,7 +83,7 @@ cp .env.example .env
 
 2. Pull the required model:
 ```bash
-ollama pull deepseek-r1:1.5b
+ollama pull deepseek-r1:7b
 ```
 
 ## 📁 Project Structure
@@ -95,8 +95,6 @@ autoinbox-ai/
 │   │   └── (AI model integration and processing)
 │   ├── email/
 │   │   └── (Gmail integration and email handling)
-│   └── scheduler/
-│       └── (Task scheduling and automation)
 ├── config/
 │   └── (Configuration files)
 ├── data/
@@ -132,7 +130,7 @@ The application can be configured through the `.env` file:
 
 ```env
 GMAIL_CREDENTIALS_FILE=credentials.json
-OLLAMA_MODEL=deepseek-r1:1.5b
+OLLAMA_MODEL=deepseek-r1:7b
 LOG_LEVEL=INFO
 ```
 
@@ -163,4 +161,4 @@ For support, please:
 
 ---
 
-Made with ❤️ by [Your Name]
+Made by Charles Bagacina
